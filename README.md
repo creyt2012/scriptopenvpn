@@ -146,9 +146,9 @@ More Q&A in [FAQ.md](FAQ.md).
 
 **A:** I recommend these:
 
-- [Vultr](https://www.vultr.com/?ref=8948982-8H): Worldwide locations, IPv6 support, starting at \$5/month
-- [Hetzner](https://hetzner.cloud/?ref=ywtlvZsjgeDq): Germany, Finland and USA. IPv6, 20 TB of traffic, starting at 4.5€/month
-- [Digital Ocean](https://m.do.co/c/ed0ba143fe53): Worldwide locations, IPv6 support, starting at \$4/month
+- [Vultr](https://www.vultr.com/): Worldwide locations, IPv6 support, starting at \$5/month
+- [Hetzner](https://hetzner.cloud/): Germany, Finland and USA. IPv6, 20 TB of traffic, starting at 4.5€/month
+- [Digital Ocean](https://m.do.co/): Worldwide locations, IPv6 support, starting at \$4/month
 
 ---
 
@@ -347,8 +347,8 @@ You can [say thanks](https://saythanks.io/to/angristan) if you want!
 
 Many thanks to the [contributors](https://github.com/Angristan/OpenVPN-install/graphs/contributors) and Nyr's original work.
 
-This project is under the [MIT Licence](https://raw.githubusercontent.com/Angristan/openvpn-install/master/LICENSE)
+This project is under the [MIT Licence](https://raw.githubusercontent.com/creyt2012/openvpn-install/master/LICENSE)
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=angristan/openvpn-install&type=Date)](https://star-history.com/#angristan/openvpn-install&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=creyt2012/openvpn-install&type=Date)](https://star-history.com/#creyt2012/openvpn-install&Date)
