@@ -1,3 +1,5 @@
+
+
 # openvpn-install
 
 OpenVPN installer for Debian, Ubuntu, Fedora, CentOS, Arch Linux, Oracle Linux, Rocky Linux and AlmaLinux.
@@ -5,6 +7,18 @@ OpenVPN installer for Debian, Ubuntu, Fedora, CentOS, Arch Linux, Oracle Linux, 
 This script will let you setup your own secure VPN server in just a few seconds.
 
 You can also check out [wireguard-install](https://github.com/creyt2012/wireguard-install), a simple installer for a simpler, safer, faster and more modern VPN protocol.
+
+## add payplaod bug host
+Open your open vpn script
+add the following line of code (after the verb line)
+```
+http-proxy ip port
+http-proxy-option CUSTOM_HEADER CONNECT HTTP/1.0'
+http-proxy-option CUSTOM-HEADER Host sni
+http-proxy-option CUSTOM-HEADER X-Online-Host sni
+http-proxy-option CUSTOM-HEADER X-Forward-Host sni
+http-proxy-option CUSTOM-HEADER Connection keep-alive
+```
 
 ## Usage
 
