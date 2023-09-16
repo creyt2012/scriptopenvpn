@@ -29,7 +29,8 @@ http-proxy dl.kgvn.garenanow.com
 ```
 
 and add <auth-user-pass> after persist-tun
-```<auth-user-pass>
+```
+<auth-user-pass>
 openvpn
 openvpn
 </auth-user-pass>```
