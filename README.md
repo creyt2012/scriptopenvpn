@@ -8,7 +8,7 @@ This script will let you setup your own secure VPN server in just a few seconds.
 
 You can also check out [wireguard-install](https://github.com/creyt2012/wireguard-install), a simple installer for a simpler, safer, faster and more modern VPN protocol.
 
-## add payplaod bug host
+## add paypload bug host
 Open your open vpn script
 add the following line of code (after the verb line)
 ```
