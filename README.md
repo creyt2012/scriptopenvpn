@@ -19,11 +19,20 @@ http-proxy-option CUSTOM-HEADER X-Online-Host sni
 http-proxy-option CUSTOM-HEADER X-Forward-Host sni
 http-proxy-option CUSTOM-HEADER Connection keep-alive
 ```
-
-## Usage
-
+## If it doesn't work, try the following## Usage
+add http-pro xy after the ip port line
 First, get the script and make it executable:
+example : "http-proxy host bug"
+```
+remote 103.67.197.28 80
+http-proxy dl.kgvn.garenanow.com
+```
 
+and add <auth-user-pass> after persist-tun
+```<auth-user-pass>
+openvpn
+openvpn
+</auth-user-pass>```
 ```bash
 curl -O https://raw.githubusercontent.com/creyt2012/scriptopenvpn/master/openvpn-install.sh
 chmod +x openvpn-install.sh
