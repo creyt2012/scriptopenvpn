@@ -29,11 +29,16 @@ http-proxy dl.kgvn.garenanow.com
 ```
 
 and add <auth-user-pass> after persist-tun
+
 ```
 <auth-user-pass>
 openvpn
 openvpn
-</auth-user-pass>```
+</auth-user-pass>
+```
+
+install open vpn
+
 ```bash
 curl -O https://raw.githubusercontent.com/creyt2012/scriptopenvpn/master/openvpn-install.sh
 chmod +x openvpn-install.sh
